@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ольга — разработчик внутренних бизнес-инструментов и сайтов</title>
+  <meta name="description" content="Портфолио Ольги: сайты для малого бизнеса и рабочие сервисы для учёта задач и процессов. Таск-трекер для команды, B2B-сайт.">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%232563eb'/%3E%3Ctext%20x='32'%20y='45'%20font-size='38'%20font-family='Arial,sans-serif'%20font-weight='700'%20fill='white'%20text-anchor='middle'%3E%D0%9E%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo">Ольга<span class="logo__dot">.</span></a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#about" class="nav__link">Обо мне</a>
+        <a href="#projects" class="nav__link">Проекты</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+        <a href="#contacts" class="btn btn--small btn--primary nav__cta">Связаться</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Блок 1. Главный экран -->
+    <section class="hero" id="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content" data-reveal>
+          <p class="hero__name">Ольга <span class="hero__badge">удалённо</span></p>
+          <h1 class="hero__title"><span>Разработчик</span> <span>внутренних</span> <span>бизнес-инструментов</span> <span>и</span> <span>сайтов</span> <span>для</span> <span>малого</span> <span>бизнеса</span></h1>
+          <p class="hero__subtitle">Делаю сайты и сервисы, которые помогают командам не терять задачи и работать спокойнее.</p>
+
+          <ul class="hero__list">
+            <li>сайты для компаний (лендинги, B2B-сайты)</li>
+            <li>рабочие сервисы для учёта задач и процессов</li>
+            <li>адаптив под мобильные устройства</li>
+          </ul>
+
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">Посмотреть проекты</a>
+            <a href="#contacts" class="btn btn--ghost">Связаться</a>
+          </div>
+        </div>
+
+        <div class="hero__art" data-reveal aria-hidden="true">
+          <div class="mini-app">
+            <div class="mini-app__bar"><i></i><i></i><i></i></div>
+            <div class="mini-app__body">
+              <div class="mini-app__row">
+                <span class="chip chip--new">Новая</span>
+                <span class="mini-app__line w-70"></span>
+                <span class="avatar">А</span>
+              </div>
+              <div class="mini-app__row">
+                <span class="chip chip--work">В работе</span>
+                <span class="mini-app__line w-55"></span>
+                <span class="avatar avatar--2">М</span>
+              </div>
+              <div class="mini-app__row">
+                <span class="chip chip--done">Выполнена</span>
+                <span class="mini-app__line w-80"></span>
+                <span class="avatar avatar--3">О</span>
+              </div>
+              <div class="mini-app__row mini-app__row--dim">
+                <span class="chip chip--work">В работе</span>
+                <span class="mini-app__line w-45"></span>
+                <span class="avatar avatar--4">Д</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Прокрутить к разделу «Обо мне»"><span></span></a>
+    </section>
+
+    <!-- Бегущая строка: стек и навыки -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <div class="marquee__group">
+          <span>JavaScript</span><b>◆</b>
+          <span>React</span><b>◆</b>
+          <span>HTML</span><b>◆</b>
+          <span>CSS</span><b>◆</b>
+          <span>Git</span><b>◆</b>
+          <span>адаптивная вёрстка</span><b>◆</b>
+          <span>таск-трекеры</span><b>◆</b>
+          <span>B2B-сайты</span><b>◆</b>
+          <span>формы и заявки</span><b>◆</b>
+          <span>удобные интерфейсы</span><b>◆</b>
+        </div>
+        <div class="marquee__group">
+          <span>JavaScript</span><b>◆</b>
+          <span>React</span><b>◆</b>
+          <span>HTML</span><b>◆</b>
+          <span>CSS</span><b>◆</b>
+          <span>Git</span><b>◆</b>
+          <span>адаптивная вёрстка</span><b>◆</b>
+          <span>таск-трекеры</span><b>◆</b>
+          <span>B2B-сайты</span><b>◆</b>
+          <span>формы и заявки</span><b>◆</b>
+          <span>удобные интерфейсы</span><b>◆</b>
+        </div>
+      </div>
+    </div>
+
+    <!-- Блок 2. Обо мне -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <p class="section__eyebrow">Обо мне</p>
+          <h2 class="section__title">Порядок в задачах — и в интерфейсе</h2>
+        </header>
+
+        <div class="about">
+          <div class="about__text" data-reveal>
+            <p class="lead">Меня зовут Ольга. Я разработчик, работаю удалённо.</p>
+            <p>Занимаюсь разработкой сайтов и внутренних сервисов для малого бизнеса. Люблю, когда в задачах есть порядок и интерфейс не мешает работе, а помогает — поэтому уделяю много внимания удобству и логике экранов.</p>
+
+            <ul class="check-list">
+              <li>делаю страницы с задачами, списками, фильтрами, архивами</li>
+              <li>аккуратная адаптивная вёрстка под телефон и компьютер</li>
+              <li>собираю данные из форм и показываю их в удобном виде пользователям</li>
+            </ul>
+          </div>
+
+          <aside class="about__card" data-reveal>
+            <p class="about__card-label">Чем могу быть полезна</p>
+            <div class="service"><span class="service__icon">01</span><span>Сайт компании, лендинг, B2B-сайт</span></div>
+            <div class="service"><span class="service__icon">02</span><span>Внутренний сервис: задачи, статусы, отчёты</span></div>
+            <div class="service"><span class="service__icon">03</span><span>Адаптив, формы, аккуратная вёрстка</span></div>
+
+            <p class="about__stack">Работаю с современными инструментами веб-разработки: JavaScript, React, HTML, CSS, Git.</p>
+            <div class="tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">React</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Git</span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок 3. Проекты -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <p class="section__eyebrow">Проекты</p>
+          <h2 class="section__title">Два кейса, которые решают рабочие задачи</h2>
+        </header>
+
+        <!-- Проект 1: Таск-трекер -->
+        <article class="case" id="case-tracker" data-reveal>
+          <div class="case__media">
+            <div class="mockup mockup--tracker">
+              <div class="mockup__bar"><i></i><i></i><i></i><span class="mockup__url">nordflow-task-tracker</span></div>
+              <div class="mockup__screen">
+                <div class="tk__filters">
+                  <span class="chip chip--active">Все</span>
+                  <span class="chip">В работе</span>
+                  <span class="chip">Просрочены</span>
+                  <span class="chip chip--ghost">Исполнитель</span>
+                </div>
+                <div class="tk__row">
+                  <span class="tk__check"></span>
+                  <span class="tk__title">Обновить форму заявки</span>
+                  <span class="chip chip--work">В работе</span>
+                  <span class="tk__date">12 окт</span>
+                  <span class="avatar">А</span>
+                </div>
+                <div class="tk__row">
+                  <span class="tk__check"></span>
+                  <span class="tk__title">Свести отчёт по заявкам</span>
+                  <span class="chip chip--new">Новая</span>
+                  <span class="tk__date">14 окт</span>
+                  <span class="avatar avatar--2">М</span>
+                </div>
+                <div class="tk__row">
+                  <span class="tk__check tk__check--done"></span>
+                  <span class="tk__title tk__title--done">Настроить фильтры</span>
+                  <span class="chip chip--done">Выполнена</span>
+                  <span class="tk__date">8 окт</span>
+                  <span class="avatar avatar--3">О</span>
+                </div>
+                <div class="tk__row">
+                  <span class="tk__check"></span>
+                  <span class="tk__title">Разложить задачи по архиву</span>
+                  <span class="chip chip--work">В работе</span>
+                  <span class="tk__date">18 окт</span>
+                  <span class="avatar avatar--4">Д</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="case__body">
+            <p class="case__tag">Таск-трекер · nordflow-task-tracker</p>
+            <h3 class="case__title">Трекер задач для команды</h3>
+            <p class="case__desc">Веб-приложение для ведения задач в команде. Подходит для любых компаний, которым важно не терять задачи и видеть статусы работы.</p>
+
+            <p class="case__label">Что умеет</p>
+            <ul class="check-list check-list--compact">
+              <li>список задач</li>
+              <li>пользователи и исполнители</li>
+              <li>статусы задач (новая, в работе, выполнена и т.п.)</li>
+              <li>фильтры по статусам, срокам, исполнителям</li>
+              <li>сроки (дедлайны)</li>
+              <li>архив задач — задачи не удаляются навсегда, а переезжают в архив</li>
+            </ul>
+
+            <p class="case__label">Мой вклад</p>
+            <ul class="check-list check-list--compact">
+              <li>спроектировала и реализовала интерфейс списка задач</li>
+              <li>настроила видимость задач для разных ролей (исполнитель, постановщик, руководитель)</li>
+              <li>продумала фильтры и переход задач в архив</li>
+            </ul>
+
+            <p class="case__tech">Современный фронтенд-стек: JavaScript/TypeScript, React, работа с состоянием, адаптивный интерфейс.</p>
+
+            <div class="case__actions">
+              <a href="https://github.com/" class="btn btn--dark" target="_blank" rel="noopener">Смотреть на GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Проект 2: B2B-сайт -->
+        <article class="case case--reverse" id="case-b2b" data-reveal>
+          <div class="case__media">
+            <div class="mockup mockup--b2b">
+              <div class="mockup__bar"><i></i><i></i><i></i><span class="mockup__url">siteb2b</span></div>
+              <div class="mockup__screen">
+                <div class="b2b__nav">
+                  <span class="b2b__logo"></span>
+                  <span class="b2b__menu"></span>
+                  <span class="b2b__menu"></span>
+                  <span class="b2b__btn"></span>
+                </div>
+                <div class="b2b__hero">
+                  <span class="b2b__h w-75"></span>
+                  <span class="b2b__h b2b__h--sub w-55"></span>
+                  <span class="b2b__cta"></span>
+                </div>
+                <div class="b2b__cards">
+                  <div class="b2b__card"><span class="b2b__ico"></span><span class="b2b__line w-80"></span><span class="b2b__line w-60"></span></div>
+                  <div class="b2b__card"><span class="b2b__ico"></span><span class="b2b__line w-70"></span><span class="b2b__line w-50"></span></div>
+                  <div class="b2b__card b2b__card--form">
+                    <span class="b2b__line w-70"></span>
+                    <span class="b2b__field"></span>
+                    <span class="b2b__field"></span>
+                    <span class="b2b__submit"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="case__body">
+            <p class="case__tag">B2B-сайт · siteb2b</p>
+            <h3 class="case__title">Сайт для B2B-компании</h3>
+            <p class="case__desc">Пример сайта для оптовой/B2B-компании. Задача — показать услуги/товары и дать клиентам возможность быстро оставить заявку.</p>
+
+            <p class="case__label">Что умеет</p>
+            <ul class="check-list check-list--compact">
+              <li>витрина услуг/товаров с понятной структурой</li>
+              <li>блоки доверия: о компании, клиенты, условия работы</li>
+              <li>форма заявки с проверкой полей</li>
+              <li>адаптив под телефон и компьютер</li>
+              <li>быстрая загрузка и базовая SEO-разметка</li>
+            </ul>
+
+            <p class="case__label">Мой вклад</p>
+            <ul class="check-list check-list--compact">
+              <li>спроектировала структуру страницы под путь клиента до заявки</li>
+              <li>сверстала макет адаптивно — от широкого экрана до мобильного</li>
+              <li>настроила форму заявки и передачу данных</li>
+            </ul>
+
+            <p class="case__tech">HTML, CSS, JavaScript, адаптивная вёрстка, работа с формами и валидацией.</p>
+
+            <div class="case__actions">
+              <a href="https://github.com/" class="btn btn--dark" target="_blank" rel="noopener">Смотреть на GitHub</a>
+              <a href="#" class="btn btn--ghost">Открыть демо</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Блок 4. Контакты -->
+    <section class="section contacts" id="contacts">
+      <div class="container contacts__inner" data-reveal>
+        <p class="section__eyebrow">Контакты</p>
+        <h2 class="section__title">Расскажите о задаче — отвечу в течение рабочего дня</h2>
+        <p class="contacts__text">Нужен сайт для компании или внутренний инструмент для команды? Напишите удобным способом.</p>
+
+        <div class="contacts__actions">
+          <a href="https://t.me/olganik_yartehno" class="btn btn--primary btn--lg" target="_blank" rel="noopener">Telegram: @olganik_yartehno</a>
+          <a href="mailto:olganik_yartehno@mail.ru" class="btn btn--ghost btn--lg">olganik_yartehno@mail.ru</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© 2026 Ольга — сайты и внутренние инструменты для малого бизнеса</p>
+      <a href="#hero" class="footer__top">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
